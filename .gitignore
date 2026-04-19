@@ -1,0 +1,40 @@
+### Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+
+### Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+### Jupyter / notebooks
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+### OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+### Build / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+### Local artifacts (generated)
+artifacts/
+logs/
+
+### Local virtualenvs inside repo (if created)
+venv/
+
+### Model files (if generated outside artifacts/)
+*.joblib
+*.pkl
