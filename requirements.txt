@@ -5,5 +5,8 @@ langchain-google-genai
 langchain-groq
 
 langgraph
+langgraph-checkpoint-sqlite
+
 
 dotenv
+sqlite3
