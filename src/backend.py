@@ -45,10 +45,12 @@ graph.add_edge('chat',END)
 
 workflow=graph.compile(checkpointer=checkpoint)
 
-while True:
-    config={'configurable': {'thread_id': '1'}}
-    user_input=input("User: ")
-    if user_input.lower() in ['exit','quit']:
-        break
-    response=workflow.invoke(config=config, input={'messages': [HumanMessage(content=user_input)]})
-    print(f"AI: {response['messages'][-1].content}")
+# while True:
+#     config={'configurable': {'thread_id': '1'}}
+#     user_input=input("User: ")
+#     if user_input.lower() in ['exit','quit']:
+#         break
+#     response=workflow.invoke(config=config, input={'messages': [HumanMessage(content=user_input)]})
+#     print(f"AI: {response['messages'][-1].content}")
+    
+# print(workflow.get_state(config=config))

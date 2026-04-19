@@ -9,4 +9,4 @@ langgraph-checkpoint-sqlite
 
 
 dotenv
-sqlite3
+streamlit
