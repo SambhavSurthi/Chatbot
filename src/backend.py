@@ -14,7 +14,7 @@ import sqlite3
 
 load_dotenv()
 
-# persistence Creation
+# Persistence Creation
 chat_history=sqlite3.connect('chat_history.db', check_same_thread=False)
 checkpoint=SqliteSaver(conn=chat_history)
 
