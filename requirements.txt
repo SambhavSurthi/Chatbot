@@ -4,6 +4,10 @@ langchain_classic
 langchain-google-genai
 langchain-groq
 
+pandas
+numpy
+seaborn
+
 langgraph
 langgraph-checkpoint-sqlite
 
